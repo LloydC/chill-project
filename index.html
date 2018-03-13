@@ -5,6 +5,9 @@
   <link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script type="text/javascript" src="main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MWQ5Y2NkNzktNjk0MC00YjdjLWFmZjUtNWEyYTI4MTk2NGQ5NjM2NTY0NjA3MTQxMzI5MzA1" data-autopop="false"></script>
+  <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 
@@ -15,6 +18,7 @@
       <li id="logo" >The Chill People</li>
       <li><a href="#shop">Shop</a></li>
       <li><a href="#contact-us">Contact Us</a></li>
+      <li><a href="#" class="snipcart-checkout">Click here to checkout</a></li>
     </ul>
   </div>
 
@@ -22,7 +26,7 @@
     <div class="cover-content">
       <h1 id="title-exception">Chill Items for Chill People</h1>
       <h2>Wonderfully designed items to help you maximize your relaxation.</h2>
-      <a href="#" class="btn">Let's Start Shopping!</a>
+      <a href="#shop" class="btn">Let's Start Shopping!</a>
     </div>
   </div>
 
@@ -44,7 +48,17 @@
       <h3>Beach Bag</h3>
       <p>The Beach Bag is our original bag for beach lovers. It's perfect for strolling down beach promenades and perfect to stash all that you need.</p>
       <h4>$40</h4>
-      <a href="#" class="btn">Buy</a>
+      <!-- <a href="#" class="btn">Buy</a> -->
+      <button
+    class="snipcart-add-item btn"
+    data-item-id="1"
+    data-item-name="Beach Bag"
+    data-item-price="40.00"
+    data-item-weight="20"
+    data-item-url="/"
+    data-item-description="Cool beach bag">
+        Buy Beach Bag
+    </button>
     </div>
 
     <div class="product">
@@ -52,7 +66,17 @@
       <h3>Beach clutches</h3>
       <p>Our most popular beach clutches, decorated with bananas and cherries.</p>
       <h4>$40</h4>
-      <a href="#" class="btn">Buy</a>
+      
+      <button
+    class="snipcart-add-item btn"
+    data-item-id="2"
+    data-item-name="Beach clutches"
+    data-item-price="40.00"
+    data-item-weight="30"
+    data-item-url="/"
+    data-item-description="Cool beach clutches">
+        Buy Beach Clutches
+    </button>
     </div>
 
     <div class="product">
@@ -60,7 +84,17 @@
       <h3>Blue Roundie</h3>
       <p>For those who like to sit,relax and chill without worries, this convenient roundie will become your favourite item.</p>
       <h4>$30</h4>
-      <a href="#" class="btn">Buy</a>
+      
+      <button
+    class="snipcart-add-item btn"
+    data-item-id="3"
+    data-item-name="Blue Roundie"
+    data-item-price="30.00"
+    data-item-weight="20"
+    data-item-url="/"
+    data-item-description="Blue Roundie">
+        Buy Blue Roundie
+    </button>
     </div>
 
     <div class="product">
@@ -68,7 +102,17 @@
       <h3>Red Roundie</h3>
       <p>A different model offering the same benefit, a hipster's must get.</p>
       <h4>$30</h4>
-      <a href="#" class="btn">Buy</a>
+      
+      <button
+    class="snipcart-add-item btn"
+    data-item-id="4"
+    data-item-name="Red Roundie"
+    data-item-price="30.00"
+    data-item-weight="20"
+    data-item-url="/"
+    data-item-description="Red Roundie">
+        Buy Red Roundie
+    </button>
     </div>
   </div>
 
@@ -79,7 +123,17 @@
       <h3>The White Hat</h3>
       <p>When the sun comes out and you want to protect yourself, you'll be happy to have this hat with you.</p>
       <h4>$25</h4>
-      <a href="#" class="btn">Buy</a>
+      
+      <button
+    class="snipcart-add-item btn"
+    data-item-id="5"
+    data-item-name="White Hat"
+    data-item-price="40.00"
+    data-item-weight="20"
+    data-item-url="/"
+    data-item-description="Cool beach bag">
+        Buy White Hat
+    </button>
     </div>
 
     <div class="product">
@@ -87,7 +141,17 @@
       <h3>The Straw Hat</h3>
       <p>Another hat to protect yourself and enjoy the sun, all made of straw!</p>
       <h4>$35</h4>
-      <a href="#" class="btn">Buy</a>
+      
+      <button
+    class="snipcart-add-item btn"
+    data-item-id="6"
+    data-item-name="Straw Hat"
+    data-item-price="35.00"
+    data-item-weight="20"
+    data-item-url="/"
+    data-item-description="Cool straw hat">
+        Buy Straw Hat
+    </button>
     </div>
 
     <div class="product">
@@ -95,7 +159,17 @@
       <h3>Orange Beach Kimono</h3>
       <p>Enjoy some chill time at the beach feeling fabulous in our orange beach kimono.</p>
       <h4>$40</h4>
-      <a href="#" class="btn">Buy</a>
+     
+      <button
+    class="snipcart-add-item btn"
+    data-item-id="7"
+    data-item-name="Orange Beach Kimono"
+    data-item-price="40.00"
+    data-item-weight="20"
+    data-item-url="/"
+    data-item-description="Cool Orange Beach Kimono">
+        Buy Orange Beach Kimono
+    </button>
     </div>
 
     <div class="product">
@@ -103,68 +177,66 @@
       <h3>The Yellow Kaftan</h3>
       <p>The perfect thing to wear in the sun. Comfortable,light and chillness guaranteed.</p>
       <h4>$50</h4>
-      <a href="#" class="btn">Buy</a>
+      
+       <button
+    class="snipcart-add-item btn"
+    data-item-id="8"
+    data-item-name="Orange Beach Kimono"
+    data-item-price="50.00"
+    data-item-weight="20"
+    data-item-url="/"
+    data-item-description="The Yellow Kaftan">
+        Buy Yellow Kaftan
+    </button>
     </div>
   </div>
 
-  <div id="contact-us">
-      <h3>Let's Get In Touch</h3>
-        <form name="htmlform" method="post" action="html_form_send.php">
-    <table width="450px">
-    </tr>
-    <tr>
-     <td valign="top">
-      <label for="first_name">First Name</label>
-     </td>
-     <td valign="top">
-      <input  type="text" name="first_name" maxlength="50" size="30">
-     </td>
-    </tr>
-     
-    <tr>
-     <td valign="top"">
-      <label for="last_name">Last Name</label>
-     </td>
-     <td valign="top">
-      <input  type="text" name="last_name" maxlength="50" size="30">
-     </td>
-    </tr>
-    <tr>
-     <td valign="top">
-      <label for="email">Email Address</label>
-     </td>
-     <td valign="top">
-      <input  type="text" name="email" maxlength="80" size="30">
-     </td>
-     
-    </tr>
-    <tr>
-     <td valign="top">
-      <label for="telephone">Telephone Number</label>
-     </td>
-     <td valign="top">
-      <input  type="text" name="telephone" maxlength="30" size="30">
-     </td>
-    </tr>
-    <tr>
-     <td valign="top">
-      <label for="comments">Comments</label>
-     </td>
-     <td valign="top">
-      <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-     </td>
-     
-    </tr>
-    <tr>
-     <td colspan="2" style="text-align:center">
-      <input type="submit" value="Submit"> 
-     </td>
-    </tr>
-    </table>
-    </form> 
-  </div>
 
-  <h3>All the products are imported to the Netherlands and stocked in Amsterdam.</h3>
+  <h3 id="contact-us">All our products are imported to the Netherlands and stocked in Amsterdam.</h3>
+
+ <footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3>THE CHILL PEOPLE<span>logo</span></h3>
+
+        <p class="footer-links">
+          <a href="#">Home</a>
+          ·
+          <a href="#story">Our Story</a>
+          ·
+          <a href="#shop">Shop</a>
+          ·
+        </p>
+
+        <p class="footer-company-name">The Chill People &copy; 2017</p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+      <div class="footer-right" >
+
+        <p>Contact Us</p>
+
+        <form action="#" method="post">
+
+          <input type="text" name="email" placeholder="Email" />
+          <textarea name="message" placeholder="Message"></textarea>
+          <button>Send</button>
+
+        </form>
+
+      </div>
+
+    </footer>
   
 </body>
 </html> 
